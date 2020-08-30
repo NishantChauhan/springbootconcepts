@@ -1,2 +1,4 @@
 server:
   port: 6100
+api:
+  allowed-origins: http://localhost:6101

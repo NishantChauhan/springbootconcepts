@@ -10,6 +10,6 @@ import java.util.Optional;
 @Repository
 public interface PersonRepository extends CrudRepository<Person,String> {
 
-    Optional<Person> findById(String id);
+    Optional<Person> findById(Integer id);
     List<Person> findAll();
 }
